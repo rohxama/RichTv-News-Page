@@ -1,0 +1,1789 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rich Tv</title>
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- BootStrap Icons LInks -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+    <!-- CSS File Link  -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body id="home" class="scroll-bar">
+    <!-- Primary Header -->
+    <div class="container-fluid d-lg-block d-none">
+        <div class="container">
+            <div class="row my-2">
+                <div class="col-6">
+                    <div class="d-flex gap-4 header-email-phone header-text">
+                        <a href="tel:+778-237-2402" class="text-decoration-none hov">
+                            <span class="me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                    fill="none">
+                                    <path
+                                        d="M2.41333 5.19333C3.37333 7.08 4.92 8.62 6.80667 9.58667L8.27333 8.12C8.45333 7.94 8.72 7.88 8.95333 7.96C9.7 8.20667 10.5067 8.34 11.3333 8.34C11.7 8.34 12 8.64 12 9.00667V11.3333C12 11.7 11.7 12 11.3333 12C5.07333 12 0 6.92667 0 0.666667C0 0.3 0.3 0 0.666667 0H3C3.36667 0 3.66667 0.3 3.66667 0.666667C3.66667 1.5 3.8 2.3 4.04667 3.04667C4.12 3.28 4.06667 3.54 3.88 3.72667L2.41333 5.19333Z"
+                                        fill="#4E4E4E"></path>
+                                </svg>
+                            </span>
+                            778-237-2402
+                        </a>
+                        <a href="mailto:support@richtv.io" class="text-decoration-none hov">
+                            <span class="me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10"
+                                    fill="none">
+                                    <path
+                                        d="M10.8 0.200195H1.2C0.54 0.200195 0.00599999 0.740195 0.00599999 1.4002L0 8.6002C0 9.2602 0.54 9.8002 1.2 9.8002H10.8C11.46 9.8002 12 9.2602 12 8.6002V1.4002C12 0.740195 11.46 0.200195 10.8 0.200195ZM10.8 2.6002L6 5.6002L1.2 2.6002V1.4002L6 4.4002L10.8 1.4002V2.6002Z"
+                                        fill="#4E4E4E"></path>
+                                </svg>
+                            </span>
+                            support@richtv.io
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex gap-4 header-sign-log header-text justify-content-end">
+                        <a href="#" class="text-decoration-none hov">
+                            <span class="me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"
+                                    fill="none">
+                                    <path
+                                        d="M4.94104 0H12.353C13.2589 0 14.0001 0.72 14.0001 1.6V14.4C14.0001 15.28 13.2589 16 12.353 16H4.94104C4.03514 16 3.29395 15.28 3.29395 14.4V12.8H4.94104V14.4H12.353V1.6H4.94104V3.2H3.29395V1.6C3.29395 0.72 4.03514 0 4.94104 0Z"
+                                        fill="#4E4E4E"></path>
+                                    <path
+                                        d="M5.83896 10.872L7.00016 12L11.1179 8L7.00016 4L5.83896 5.128L7.96371 7.2H0V8.8H7.96371L5.83896 10.872Z"
+                                        fill="#4E4E4E"></path>
+                                </svg>
+                            </span>
+                            Log In
+                        </a>
+                        <a href="#" class="text-decoration-none hov">
+                            <span class="me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                    fill="none">
+                                    <path
+                                        d="M8 0C9.06087 0 10.0783 0.421427 10.8284 1.17157C11.5786 1.92172 12 2.93913 12 4C12 5.06087 11.5786 6.07828 10.8284 6.82843C10.0783 7.57857 9.06087 8 8 8C6.93913 8 5.92172 7.57857 5.17157 6.82843C4.42143 6.07828 4 5.06087 4 4C4 2.93913 4.42143 1.92172 5.17157 1.17157C5.92172 0.421427 6.93913 0 8 0ZM8 10C12.42 10 16 11.79 16 14V16H0V14C0 11.79 3.58 10 8 10Z"
+                                        fill="#4E4E4E"></path>
+                                </svg>
+                            </span>
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Secondary header  -->
+    <div class="container-fluid sec-bg sec-header sticky-top">
+        <div class="container container-header">
+            <div class="row py-2 d-flex align-items-center">
+                <div class="col-2">
+                    <a class="navbar-brand" href="#home">
+                        <img src="./assets/media/site-logo.svg" height="34px" width="121px" alt="site-logo">
+                    </a>
+                </div>
+                <div class="col-10 d-xl-none d-block text-end">
+                    <button class="navbar-toggler me-4" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <svg width="30" height="23" viewBox="0 0 30 23" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 1.75C0 0.783502 0.783502 0 1.75 0H28.25C29.2165 0 30 0.783502 30 1.75C30 2.7165 29.2165 3.5 28.25 3.5H1.75C0.783502 3.5 0 2.7165 0 1.75ZM10 11.25C10 10.2835 10.7835 9.5 11.75 9.5H28.25C29.2165 9.5 30 10.2835 30 11.25C30 12.2165 29.2165 13 28.25 13H11.75C10.7835 13 10 12.2165 10 11.25ZM20 20.75C20 19.7835 20.7835 19 21.75 19H28.25C29.2165 19 30 19.7835 30 20.75C30 21.7165 29.2165 22.5 28.25 22.5H21.75C20.7835 22.5 20 21.7165 20 20.75Z"
+                                    fill="#000"></path>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+                <div class="col-10 d-flex justify-content-end d-xl-flex d-none">
+                    <nav class="navbar d-flex gap-5 navbar-expand">
+                        <div class="">
+                            <ul class="navbar-nav header-navbar-nav">
+                                <li class="nav-item me-3 dropdown dropdown-xl">
+                                    <a class="nav-link text-uppercase fs-15px fw-medium dropdown-toggle dropdown-toggle-xl hov"
+                                        role="button" data-bs-toggle="dropdown" href="#">Financial News</a>
+                                    <ul class="dropdown-menu dropdown-menu-xl position-absolute border-none">
+                                        <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Press
+                                                Release</a>
+                                        </li>
+                                        <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Market
+                                                analysis</a>
+                                        </li>
+                                        <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">INVESTING</a>
+                                        </li>
+                                        <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Stocks</a>
+                                        </li>
+                                        <li><a class="dropdown-item fw-medium hov" href="#">CRYPTOCURRENCY</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item me-3 dropdown dropdown-xl"><a
+                                        class="nav-link text-uppercase fs-15px fw-medium dropdown-toggle dropdown-toggle-xl hov"
+                                        role="button" data-bs-toggle="dropdown" href="#">Trading
+                                        School</a>
+                                    <div class="dropdown-menu dropdown-menu-xl border-none dropdown-menu-4">
+                                        <div class="d-flex justify-content-around">
+                                            <ul class="navbar-nav d-flex flex-column">
+                                                <li class="ms-3 fw-bolder mb-2 text-uppercase hov">Strategies</li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">penny
+                                                        stocks</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov"
+                                                        href="#">reversal</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov"
+                                                        href="#">momentum</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">gap
+                                                        and go</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">bull
+                                                        flag</a></li>
+                                            </ul>
+                                            <ul class="navbar-nav d-flex flex-column">
+                                                <li class="ms-3 fw-bolder mb-2 text-uppercase hov">guides</li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov"
+                                                        href="#">exams</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">day
+                                                        trading</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov"
+                                                        href="#">technical analysis guide</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">penny
+                                                        stock trading</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">how
+                                                        to invest in stocks</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">how
+                                                        to identify & avoid a bull trap </a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">how
+                                                        to trade with bollinger bands</a></li>
+                                            </ul>
+                                            <ul class="navbar-nav d-flex flex-column">
+                                                <li class="ms-3 fw-bolder mb-2 text-uppercase hov">trading glossary</li>
+                                            </ul>
+                                            <ul class="navbar-nav d-flex flex-column">
+                                                <li class="ms-3 fw-bolder mb-2 text-uppercase hov">ebooks</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item me-3 dropdown dropdown-xl dropdown-3">
+                                    <a class="nav-link text-uppercase fs-15px fw-medium dropdown-toggle dropdown-toggle-xl hov"
+                                        role="button" data-bs-toggle="dropdown" href="#">Resources</a>
+                                    <div
+                                        class="dropdown-menu dropdown-menu-xl position-absolute border-none dropdown-menu-3">
+                                        <div class="d-flex justify-content-around">
+                                            <ul class="navbar-nav d-flex flex-column">
+                                                <li class="ms-3 fw-bolder mb-2 text-uppercase hov">Source</li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Rich
+                                                        Tv
+                                                        Picks</a></li>
+                                                <li><a class="dropdown-item fw-medium hov" href="#">Watchlists</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Email
+                                                        and
+                                                        alerts</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Chat
+                                                        Room</a></li>
+                                            </ul>
+                                            <ul class="navbar-nav d-flex flex-column">
+                                                <li class="ms-3 fw-bolder mb-2 text-uppercase hov">CALENDER</li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov"
+                                                        href="#">economic
+                                                        calender</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov"
+                                                        href="#">earning
+                                                        calender</a></li>
+                                                <li><a class="dropdown-item fw-medium text-uppercase hov"
+                                                        href="#">screener</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown-4">
+                                    <a class="nav-link text-uppercase fs-15px fw-medium hov dropdown-toggle-4"
+                                        href="#">CEO
+                                        Interviews</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="button" class="border-0 toggle" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            <span class=" toggle">
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M16.0319 14.6177C17.2635 13.078 18 11.125 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C11.125 18 13.078 17.2635 14.6177 16.0319L17.2929 18.7071C17.6834 19.0976 18.3166 19.0976 18.7071 18.7071C19.0976 18.3166 19.0976 17.6834 18.7071 17.2929L16.0319 14.6177ZM16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9C2 5.13401 5.13401 2 9 2C12.866 2 16 5.13401 16 9Z"
+                                        fill="#777E90"></path>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="modal fade mobile-menu" id="exampleModal" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            </button>
+                            <div class="modal-dialog">
+                                <div class="modal-content rounded-4">
+                                    <div class="modal-body pt-3">
+                                        <form action="#" class="">
+                                            <span class="">
+                                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg" class="mb-1 me-1">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M16.0319 14.6177C17.2635 13.078 18 11.125 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C11.125 18 13.078 17.2635 14.6177 16.0319L17.2929 18.7071C17.6834 19.0976 18.3166 19.0976 18.7071 18.7071C19.0976 18.3166 19.0976 17.6834 18.7071 17.2929L16.0319 14.6177ZM16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9C2 5.13401 5.13401 2 9 2C12.866 2 16 5.13401 16 9Z"
+                                                        fill="#777E90"></path>
+                                                </svg>
+                                            </span>
+                                            <input type="search" name="search" id="search"
+                                                placeholder="Search Markets and Groups" class="border-0 pt-0">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Header  -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header sec-bg">
+            <a class="navbar-brand" href="#home">
+                <img src="./assets/media/site-logo.svg" height="34px" width="121px" alt="site-logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="sec-1 px-3">
+            <div class="d-lg-none d-flex gap-4 header-sign-log justify-content-center py-1">
+                <a href="#" class="text-decoration-none hov text-white pt-1">
+                    <span class="me-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
+                            <path
+                                d="M4.94104 0H12.353C13.2589 0 14.0001 0.72 14.0001 1.6V14.4C14.0001 15.28 13.2589 16 12.353 16H4.94104C4.03514 16 3.29395 15.28 3.29395 14.4V12.8H4.94104V14.4H12.353V1.6H4.94104V3.2H3.29395V1.6C3.29395 0.72 4.03514 0 4.94104 0Z"
+                                fill="#ffff"></path>
+                            <path
+                                d="M5.83896 10.872L7.00016 12L11.1179 8L7.00016 4L5.83896 5.128L7.96371 7.2H0V8.8H7.96371L5.83896 10.872Z"
+                                fill="#ffff"></path>
+                        </svg>
+                    </span>
+                    Log In
+                </a>
+                <hr class="">
+                <a href="#" class="text-decoration-none hov text-white pt-1">
+                    <span class="me-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path
+                                d="M8 0C9.06087 0 10.0783 0.421427 10.8284 1.17157C11.5786 1.92172 12 2.93913 12 4C12 5.06087 11.5786 6.07828 10.8284 6.82843C10.0783 7.57857 9.06087 8 8 8C6.93913 8 5.92172 7.57857 5.17157 6.82843C4.42143 6.07828 4 5.06087 4 4C4 2.93913 4.42143 1.92172 5.17157 1.17157C5.92172 0.421427 6.93913 0 8 0ZM8 10C12.42 10 16 11.79 16 14V16H0V14C0 11.79 3.58 10 8 10Z"
+                                fill="#ffff"></path>
+                        </svg>
+                    </span>
+                    Sign Up
+                </a>
+            </div>
+        </div>
+        <div class="mobile-search">
+            <form action="#" class="px-4 sec-lg">
+                <span class="">
+                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="mb-1 me-1">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M16.0319 14.6177C17.2635 13.078 18 11.125 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C11.125 18 13.078 17.2635 14.6177 16.0319L17.2929 18.7071C17.6834 19.0976 18.3166 19.0976 18.7071 18.7071C19.0976 18.3166 19.0976 17.6834 18.7071 17.2929L16.0319 14.6177ZM16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9C2 5.13401 5.13401 2 9 2C12.866 2 16 5.13401 16 9Z"
+                            fill="#777E90"></path>
+                    </svg>
+                </span>
+                <input type="search" name="search" id="search" placeholder="Search Markets and Groups"
+                    class="border-0 py-3">
+            </form>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="navbar d-flex">
+                <ul class="navbar-nav header-navbar-nav">
+                    <li class="nav-item me-3 dropdown dropdown-lg">
+                        <a class="nav-link text-uppercase fs-15px fw-medium dropdown-toggle dropdown-toggle-1 hov"
+                            role="button" data-bs-toggle="dropdown" href="#">Financial News</a>
+                        <ul class="dropdown-menu dropdown-menu-lg border-none" style="background-color: transparent;">
+                            <li><a class="dropdown-item fw-medium text-uppercase hov ps-0" href="#">Press
+                                    Release</a>
+                            </li>
+                            <li><a class="dropdown-item fw-medium text-uppercase hov ps-0" href="#">Market
+                                    analysis</a>
+                            </li>
+                            <li><a class="dropdown-item fw-medium text-uppercase hov ps-0" href="#">INVESTING</a>
+                            </li>
+                            <li><a class="dropdown-item fw-medium text-uppercase hov ps-0" href="#">Stocks</a>
+                            </li>
+                            <li><a class="dropdown-item fw-medium hov ps-0" href="#">CRYPTOCURRENCY</a></li>
+                        </ul>
+                    </li>
+                    <hr class="my-1 header-xl-hr">
+                    <li class="nav-item me-3 dropdown dropdown-lg"><a
+                            class="nav-link text-uppercase fs-15px fw-medium dropdown-toggle dropdown-toggle-2 hov"
+                            role="button" data-bs-toggle="dropdown" href="#">Trading
+                            School</a>
+                        <div class="dropdown-menu dropdown-menu-lg border-none" style="background-color: transparent;">
+                            <div class="d-flex flex-column">
+                                <ul class="navbar-nav d-flex flex-column">
+                                    <li class="ms-1 fw-bolder mb-3 mt-2 text-uppercase hov">Strategies</li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">penny
+                                            stocks</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">reversal</a>
+                                    </li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">momentum</a>
+                                    </li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">gap
+                                            and go</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">bull
+                                            flag</a></li>
+                                </ul>
+                                <ul class="navbar-nav d-flex flex-column">
+                                    <li class="ms-1 fw-bolder mb-2 text-uppercase hov mb-3 mt-2">guides</li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">exams</a>
+                                    </li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">day
+                                            trading</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">technical
+                                            analysis guide</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">penny
+                                            stock trading</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">how
+                                            to invest in stocks</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">how
+                                            to identify & avoid a bull trap </a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">how
+                                            to trade with bollinger bands</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <hr class="my-1 header-xl-hr">
+                    <li class="nav-item me-3 dropdown dropdown-lg dropdown-3">
+                        <a class="nav-link text-uppercase fs-15px fw-medium dropdown-toggle dropdown-toggle-3 hov"
+                            role="button" data-bs-toggle="dropdown" href="#">Resources</a>
+                        <div class="dropdown-menu border-none dropdown-menu-lg" style="background-color: transparent;">
+                            <div class="d-flex flex-column">
+                                <ul class="navbar-nav d-flex flex-column">
+                                    <li class="ms-1 fw-bolder text-uppercase hov mb-3 mt-2">Source</li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Rich
+                                            Tv
+                                            Picks</a></li>
+                                    <li><a class="dropdown-item fw-medium hov" href="#">Watchlists</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Email
+                                            and
+                                            alerts</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">Chat
+                                            Room</a></li>
+                                </ul>
+                                <ul class="navbar-nav d-flex flex-column">
+                                    <li class="ms-1 fw-bolder text-uppercase hov mb-3 mt-2">CALENDER</li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">economic
+                                            calender</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">earning
+                                            calender</a></li>
+                                    <li><a class="dropdown-item fw-medium text-uppercase hov" href="#">screener</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <hr class="my-1 header-xl-hr">
+                    <li class="nav-item dropdown-4">
+                        <a class="nav-link text-uppercase fs-15px fw-medium hov dropdown-toggle-4" href="#">CEO
+                            Interviews</a>
+                    </li>
+                    <hr class="my-1 header-xl-hr">
+                </ul>
+            </nav>
+            <div class="social_icon  my-4">
+                <ul class="navbar-nav d-flex flex-row gap-3 justify-content-center">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 7 14"
+                                    fill="none">
+                                    <path
+                                        d="M4.80257 13.8497V7.04907H6.67985L6.92863 4.70552H4.80257L4.80576 3.53255C4.80576 2.92132 4.86383 2.59381 5.74174 2.59381H6.91534V0.25H5.03779C2.78256 0.25 1.98877 1.38687 1.98877 3.29873V4.70579H0.583008V7.04933H1.98877V13.8497H4.80257Z"
+                                        fill="#525252"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" aria-label="Youtube"><span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11"
+                                    fill="none">
+                                    <path
+                                        d="M13.8887 2.41346C13.7354 1.82439 13.2835 1.36053 12.7098 1.2031C11.6701 0.916992 7.50065 0.916992 7.50065 0.916992C7.50065 0.916992 3.33118 0.916992 2.29141 1.2031C1.7177 1.36053 1.26588 1.82439 1.11255 2.41346C0.833984 3.48107 0.833984 5.70866 0.833984 5.70866C0.833984 5.70866 0.833984 7.93616 1.11255 9.00385C1.26588 9.59292 1.7177 10.0568 2.29141 10.2143C3.33118 10.5003 7.50065 10.5003 7.50065 10.5003C7.50065 10.5003 11.6701 10.5003 12.7098 10.2143C13.2835 10.0568 13.7354 9.59292 13.8887 9.00385C14.1673 7.93616 14.1673 5.70866 14.1673 5.70866C14.1673 5.70866 14.1673 3.48107 13.8887 2.41346Z"
+                                        fill="#525252"></path>
+                                    <path d="M6.25 8.00065V3.83398L9.58333 5.9174L6.25 8.00065Z" fill="white">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.90243 0.0348698C5.01856 0.0346881 5.14348 0.0347442 5.27829 0.0348046L5.50049 0.0348698C7.28051 0.0348698 7.49148 0.0412588 8.19441 0.0732035C8.84442 0.102926 9.1972 0.211538 9.4322 0.302789C9.74331 0.423624 9.96512 0.56807 10.1983 0.801405C10.4317 1.03474 10.5761 1.25697 10.6972 1.56808C10.7885 1.8028 10.8972 2.15559 10.9268 2.80559C10.9587 3.50838 10.9657 3.71949 10.9657 5.49868C10.9657 7.27786 10.9587 7.48897 10.9268 8.19176C10.8971 8.84176 10.7885 9.19455 10.6972 9.42927C10.5764 9.74039 10.4317 9.96192 10.1983 10.1951C9.96498 10.4284 9.74345 10.5729 9.4322 10.6937C9.19748 10.7854 8.84442 10.8937 8.19441 10.9235C7.49162 10.9554 7.28051 10.9623 5.50049 10.9623C3.72033 10.9623 3.50936 10.9554 2.80657 10.9235C2.15657 10.8935 1.80379 10.7848 1.56864 10.6936C1.25753 10.5728 1.03531 10.4283 0.80197 10.195C0.568634 9.96164 0.424188 9.73997 0.303076 9.42872C0.211825 9.19399 0.103074 8.84121 0.07349 8.1912C0.0415452 7.48842 0.0351562 7.2773 0.0351562 5.49701C0.0351562 3.71671 0.0415452 3.50671 0.07349 2.80393C0.103213 2.15392 0.211825 1.80114 0.303076 1.56614C0.42391 1.25502 0.568634 1.0328 0.80197 0.799461C1.03531 0.566125 1.25753 0.421679 1.56864 0.300567C1.80365 0.208899 2.15657 0.100565 2.80657 0.0707035C3.42158 0.0429255 3.65992 0.034592 4.90243 0.0332031V0.0348698ZM9.05978 1.14188C8.6181 1.14188 8.25977 1.4998 8.25977 1.94161C8.25977 2.38328 8.6181 2.74162 9.05978 2.74162C9.50145 2.74162 9.85979 2.38328 9.85979 1.94161C9.85979 1.49994 9.50145 1.1416 9.05978 1.1416V1.14188ZM2.07617 5.49982C2.07617 3.60915 3.60903 2.07625 5.49968 2.07617C7.39039 2.07617 8.92291 3.6091 8.92291 5.49982C8.92291 7.39053 7.39053 8.92276 5.49982 8.92276C3.6091 8.92276 2.07617 7.39053 2.07617 5.49982Z"
+                                        fill="#525252"></path>
+                                    <path
+                                        d="M5.50057 3.27832C6.7278 3.27832 7.72281 4.27319 7.72281 5.50056C7.72281 6.7278 6.7278 7.72281 5.50057 7.72281C4.27319 7.72281 3.27832 6.7278 3.27832 5.50056C3.27832 4.27319 4.27319 3.27832 5.50057 3.27832Z"
+                                        fill="#525252"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11"
+                                    fill="none">
+                                    <path
+                                        d="M6.12562 3.16015L6.15185 3.59268L5.71468 3.53972C4.12337 3.3367 2.73315 2.64818 1.55278 1.49183L0.97571 0.918071L0.82707 1.34177C0.512305 2.28627 0.713405 3.28373 1.36917 3.95459C1.71891 4.32533 1.64021 4.37829 1.03691 4.15762C0.82707 4.087 0.643457 4.03404 0.62597 4.06052C0.564766 4.12231 0.774609 4.92557 0.940736 5.24335C1.16807 5.6847 1.63147 6.11723 2.13859 6.37322L2.56702 6.57624L2.0599 6.58507C1.57027 6.58507 1.55278 6.5939 1.60524 6.77926C1.78011 7.35303 2.47085 7.9621 3.24027 8.22691L3.78237 8.41228L3.31022 8.69475C2.61074 9.10079 1.78885 9.3303 0.966966 9.34795C0.573509 9.35678 0.25 9.39209 0.25 9.41857C0.25 9.50684 1.31671 10.0012 1.93749 10.1954C3.79986 10.7691 6.01196 10.522 7.67322 9.54215C8.85359 8.84481 10.034 7.45895 10.5848 6.11723C10.8821 5.40224 11.1794 4.09583 11.1794 3.4691C11.1794 3.06306 11.2056 3.01009 11.6952 2.5246C11.9838 2.24214 12.2548 1.93319 12.3073 1.84492C12.3947 1.6772 12.386 1.6772 11.94 1.82726C11.1968 2.09208 11.0919 2.05677 11.4592 1.65955C11.7302 1.37708 12.0537 0.865109 12.0537 0.715048C12.0537 0.688567 11.9226 0.732702 11.7739 0.812146C11.6165 0.900417 11.2668 1.03282 11.0045 1.11227L10.5323 1.26233L10.1039 0.971034C9.86784 0.812146 9.53559 0.635604 9.36072 0.582642C8.9148 0.459062 8.23281 0.476716 7.83061 0.61795C6.73767 1.01517 6.04693 2.03911 6.12562 3.16015Z"
+                                        fill="#525252"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com" target="_blank" aria-label="Linkdin"><span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.02084 1.72016C4.00245 0.885627 3.40568 0.25 2.43661 0.25C1.46753 0.25 0.833984 0.885627 0.833984 1.72016C0.833984 2.5374 1.44881 3.19133 2.39983 3.19133H2.41794C3.40568 3.19133 4.02084 2.5374 4.02084 1.72016ZM3.83473 4.35352H1.00195V12.8648H3.83473V4.35352ZM10.7888 4.1532C12.6529 4.1532 14.0504 5.36994 14.0504 7.98425L14.0503 12.8644H11.2176V8.31082C11.2176 7.16706 10.8077 6.38659 9.78219 6.38659C8.99958 6.38659 8.53342 6.91274 8.32869 7.42093C8.25379 7.60305 8.2354 7.85681 8.2354 8.11118V12.8646H5.40229C5.40229 12.8646 5.43963 5.15195 5.40229 4.35329H8.2354V5.55884C8.61138 4.97931 9.28475 4.1532 10.7888 4.1532Z"
+                                        fill="#525252"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com" target="_blank" aria-label="Tiktok"><span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"
+                                    fill="none">
+                                    <path
+                                        d="M10.6468 2.46301C10.08 1.81601 9.76772 0.985116 9.76796 0.125H7.20609V10.4056C7.18634 10.9619 6.95146 11.4889 6.55093 11.8755C6.15039 12.2621 5.61546 12.4782 5.05877 12.4783C3.88148 12.4783 2.90316 11.5166 2.90316 10.3227C2.90316 8.89668 4.27944 7.82717 5.69717 8.26658V5.64668C2.83683 5.26531 0.333008 7.48724 0.333008 10.3227C0.333008 13.0835 2.62127 15.0485 5.05048 15.0485C7.6538 15.0485 9.76796 12.9343 9.76796 10.3227V5.10778C10.8068 5.85383 12.054 6.25411 13.333 6.25191V3.69005C13.333 3.69005 11.7743 3.76467 10.6468 2.46301Z"
+                                        fill="#525252"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="d-flex justify-content-center gap-4 header-email-phone header-text flex-sm-row flex-column">
+                    <a href="tel:+778-237-2402" class="text-decoration-none hov text-sm-end text-center">
+                        <span class="me-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                fill="none">
+                                <path
+                                    d="M2.41333 5.19333C3.37333 7.08 4.92 8.62 6.80667 9.58667L8.27333 8.12C8.45333 7.94 8.72 7.88 8.95333 7.96C9.7 8.20667 10.5067 8.34 11.3333 8.34C11.7 8.34 12 8.64 12 9.00667V11.3333C12 11.7 11.7 12 11.3333 12C5.07333 12 0 6.92667 0 0.666667C0 0.3 0.3 0 0.666667 0H3C3.36667 0 3.66667 0.3 3.66667 0.666667C3.66667 1.5 3.8 2.3 4.04667 3.04667C4.12 3.28 4.06667 3.54 3.88 3.72667L2.41333 5.19333Z"
+                                    fill="#4E4E4E"></path>
+                            </svg>
+                        </span>
+                        778-237-2402
+                    </a>
+                    <a href="mailto:support@richtv.io" class="text-decoration-none hov text-sm-end text-center">
+                        <span class="me-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10"
+                                fill="none">
+                                <path
+                                    d="M10.8 0.200195H1.2C0.54 0.200195 0.00599999 0.740195 0.00599999 1.4002L0 8.6002C0 9.2602 0.54 9.8002 1.2 9.8002H10.8C11.46 9.8002 12 9.2602 12 8.6002V1.4002C12 0.740195 11.46 0.200195 10.8 0.200195ZM10.8 2.6002L6 5.6002L1.2 2.6002V1.4002L6 4.4002L10.8 1.4002V2.6002Z"
+                                    fill="#4E4E4E"></path>
+                            </svg>
+                        </span>
+                        support@richtv.io
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main-Content  -->
+    <main>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row main-content">
+                    <div class="col-12 col-xl-8">
+                        <div class="left-content pe-2 scroll-bar" style="max-height: 2311px">
+                            <div class="iframe-video pb-3">
+                                <iframe src="https://www.youtube.com/embed/JJUYTHIKstk?autoplay=1" width="100%"
+                                    height="630px" id="videoplayer"
+                                    title="Riverside Acquires the Revel Carbonatite Rare Earth Element Project (RRI) (RVSDF) (5YY)"
+                                    frameborder="0" allowfullscreen="" class="rounded-2"></iframe>
+                            </div>
+                            <div class="bio">
+                                <span class="fw-bolder fs-5">Nov 06 2023</span>
+                                <div class="heading">
+                                    <p class="fs-4 fw-bold text-uppercase pt-4">RIVERSIDE ACQUIRES THE REVEL CARBONATITE
+                                        RARE EARTH <br> ELEMENT PROJECT (RRI) (RVSDF) (5YY)</p>
+                                </div>
+                                <div class="details p-3 rounded-3" id="data">
+                                    <p class="lh-base" id="initialText">Riverside Resources Inc. (TSXV: RRI) (OTCQB:
+                                        RVSDF) (FSE: 5YY) ("Riverside" or the "Company"), Riverside is pleased to
+                                        announce that it has acquired part of the Mount Grace Carbonatite known to host
+                                        Rare Earth Elements ("REEs"). The Company continues to expand its presence in
+                                        British Columbia adding this a prospective REE project to its critical metals'
+                                        portfolio. The Company has staked 2538 ha. (25 km²) of terrain that hosts
+                                        carbonatites mapped <button id="readMoreBtn" type="button"
+                                            class="fw-bold text-black border-0 bg-transparent ps-0 d-inline"
+                                            onclick="readMore()"> Show More </button>
+                                        <span id="moreText" class="lh-base" style="display: none;">by the British
+                                            Columbia Geologic
+                                            Survey and
+                                            confirmed by subsequent explorers. The Project has been named "Revel" and is
+                                            located 20 km from the community of Seymour Arm within a highly prospective
+                                            carbonatite belt north of Revelstoke, BC. The Project is 100% owned by
+                                            Riverside
+                                            with no underlying royalties or encumbrances. November 6, 2023 #riverside
+                                            #resources #interview #ceo #gold #rare #earth #elements #news #gold #mexico
+                                            #canada #richtv #richtvlive #richtvlivepodcast Riverside Acquires the Revel
+                                            Carbonatite Rare Earth Element Project (RRI) (RVSDF) (5YY) Riverside
+                                            Resources
+                                            Inc. (TSXV: RRI) (OTCQB: RVSDF) (FSE: 5YY) CEO John-Mark Staude Rare Earth
+                                            Elements, or REEs, have become important metals worldwide as countries race
+                                            to
+                                            usher in a green economy, with less reliance on fossil fuels and more
+                                            reliance
+                                            on electrical grids and EV's. Most countries have begun protecting these
+                                            elements and listing them as strategic or critical, acknowledging the
+                                            importance
+                                            of these metals to future economic growth and even sovereignty. Canada and
+                                            particularly BC have geological environments that host several different
+                                            types
+                                            of rare earth element deposits. REE carbonatites are discrete layers of
+                                            either
+                                            of material being depositing on the surface during volcanic activity or
+                                            intrusive layers of magma injected between layers of existing rock. At Revel
+                                            the
+                                            property has high values of niobium and light rare earth elements similar to
+                                            those found and mined in the USA at Mountain Pass. Revel geology with
+                                            carbonatite has both intrusive and volcanic styles of REE with the Company's
+                                            mapping and on-going sampling shown below and on the website site. John-Mark
+                                            Staude, President and CEO, commented on the recent acquisition: "we are
+                                            excited
+                                            to have acquired Revel, a quality REE project with no underlying royalties
+                                            or
+                                            encumbrances in a geologically prospective area within a stable political
+                                            jurisdiction. The new Project compliments Riverside's growing portfolio in
+                                            British Columbia and positions the company well in this rapidly evolving
+                                            space.
+                                            Recent announcements by the Canadian government signal that Canada is
+                                            serious
+                                            about securing a steady and stable supply of critical elements within its
+                                            borders and the Revel acquisition is part of the Company's diversification
+                                            expanding corporate strategy." JOIN RICH TV LIVE TRADING CLUB HERE -
+                                            http://www.richtv.io Subscribe - https://www.youtube.com/c/RICHTVLIVE Social
+                                            Media Links - https://linktr.ee/richtvlive Visit - http://richtv.io/ a
+                                            community
+                                            for stocks, cryptocurrency, nfts, metaverse, news, and trending topics.
+                                            #richtvlive #richtv #richpicksdaily #stocks #business #news #finance
+                                            #education
+                                            #entertainment #money #defi #nft #metaverse #trading #stockmarket Ledger -
+                                            Home
+                                            of the first and only certified Hardware wallets
+                                            https://bit.ly/richtv-Ledger
+                                            Popular Uploads - https://goo.gl/tbvXGg Most Recent Upload -
+                                            https://goo.gl/unKXBy YouTube Channel Page - https://goo.gl/yUdG7w Subscribe
+                                            -
+                                            http://www.youtube.com/c/RICHTVLIVE Rich TV Live Playlist -
+                                            https://goo.gl/e116JF RICH TV LIVE TOP 10 STOCKS Playlist -
+                                            https://www.youtube.com/playlist?list=PLiBGEhbXkQPCfeYmBKHyXXu8dZc3YkkbW&disable_polymer=true
+                                            Disclaimer RICH TV LIVE INC. company profiles and other investor relations
+                                            materials, publications or presentations, including web content, are based
+                                            on
+                                            data obtained from sources we believe to be reliable but are not guaranteed
+                                            as
+                                            to accuracy and are not purported to be complete. As such, the information
+                                            should not be construed as advice designed to meet the particular investment
+                                            needs of any investor. Any opinions expressed in RICH TV LIVE reports
+                                            company
+                                            profiles or other investor relations materials and presentations are subject
+                                            to
+                                            change. RICH TV LIVE and its affiliates may buy and sell shares of
+                                            securities or
+                                            options of the issuers mentioned on this website at any time. RICH TV LIVE
+                                            INC.
+                                            sponsored $2500 CAD for digital video services. Investing is inherently
+                                            risky.
+                                            RICH TV LIVE is not responsible for any gains or losses that result from the
+                                            opinions expressed on this website, in its research reports, company
+                                            profiles or
+                                            in other investor relations materials or presentations that it publishes
+                                            electronically or in print. We strongly encourage all investors to conduct
+                                            their
+                                            own research before making any investment decision. For more information on
+                                            stock market investing, visit the Securities and Exchange Commission ("SEC")
+                                            at
+                                            www.sec.gov/Canadian CSA https://www.securities-administrators.ca/. <button
+                                                type="button"
+                                                class="fw-bold text-black border-0 bg-transparent ps-0 d-inline"
+                                                onclick="readLess()"> Show Less </button>
+                                        </span>
+
+                                    </p>
+                                </div>
+                                <button class="fw-bold border-0 py-2 rounded-pill d-inline bg-black text-white px-3"
+                                    id="print-btn" onclick="printArticle()">Print
+                                    Article</button>
+                                <button class="fw-bold border-0 py-2 rounded-pill d-inline bg-black text-white px-3"
+                                    id="downloadPdf">Save as Pdf</button>
+                                <script>
+                                    function printArticle() {
+                                        let body = document.getElementById("home").innerHTML;
+                                        let data = document.getElementById("data").innerHTML;
+                                        document.getElementById("home").innerHTML = data;
+                                        window.print();
+                                        document.getElementById("home").innerHTML = body;
+                                    }
+
+                                    document.getElementById("downloadPdf").addEventListener("click", function () {
+                                        html2pdf()
+                                            .from(data)
+                                            .save("article.pdf");
+                                    });
+
+                                    document.getElementById("downloadWord").addEventListener("click", function () {
+                                        var htmlContent = document.getElementById("data").innerHTML;
+                                        var converted = htmlDocx.asBlob(htmlContent);
+                                        var link = document.createElement('a');
+                                        link.href = window.URL.createObjectURL(converted);
+                                        link.download = "article.docx";
+                                        link.click();
+                                    });
+
+                                </script>
+                                <script type="text/javascript">
+                                    function readMore() {
+                                        var initialText = document.getElementById("initialText");
+                                        var moreText = document.getElementById("moreText");
+                                        var readMoreBtn = document.getElementById("readMoreBtn");
+
+                                        initialText.style.display = "block";
+                                        moreText.style.display = "block";
+                                        readMoreBtn.style.display = "none";
+                                    }
+                                    function readLess() {
+                                        var initialText = document.getElementById("initialText");
+                                        var moreText = document.getElementById("moreText");
+
+                                        initialText.style.display = "block";
+                                        moreText.style.display = "none";
+                                    }
+                                </script>
+                            </div>
+                            <div class="all-left-widgets pt-5">
+                                <div class="widgets-heading border py-3 px-2 rounded-2">
+                                    <span class="fw-bolder fs-5">Related News</span>
+                                </div>
+                                <div class="left-widgets pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-1.png" alt="" width="170px" height="100px"
+                                                class="rounded-1 mt-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">Coinbase
+                                                (COIN): Navigating Crypto Landscape with Anticipation fo ...</a>
+                                            <p class="fw-normal mb-1">Coinbase (COIN: NASDAQ) Coinbase (COIN) operates
+                                                as a provider of crypto financial infrastructure and technology. As the
+                                                compan ...</p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-2.jpg" alt="" width="170px" height="100px"
+                                                class="rounded-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">Coinbase gains U.S.
+                                                approval for crypto futures, launches global ...</a>
+                                            <p class="fw-normal mb-1">In a significant strategic move, Coinbase
+                                                (NASDAQ:COIN) has received regulatory approval to offer crypto futures
+                                                in the United ...</p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-3.png" alt="" width="170px" height="100px"
+                                                class="rounded-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">Nvidia may need
+                                                “months” to ramp up output of China-f ...</a>
+                                            <p class="fw-normal mb-1">Nvidia (NASDAQ:NVDA) is expected to take “several
+                                                months” to scale up production of its new artificial intelligence ...
+                                            </p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-4.png" alt="" width="170px" height="100px"
+                                                class="rounded-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">Fastenal (FAST):
+                                                Exceeding Earnings Expectations with Strong Oper ...</a>
+                                            <p class="fw-normal mb-1">Fastenal (FAST: NASDAQ) Fastenal (FAST) recently
+                                                reported a 2.4% year-over-year increase in third-quarter sales, meeting
+                                                analys ...</p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-5.png" alt="" width="170px" height="100px"
+                                                class="rounded-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">Ripple (XRP) surges
+                                                10% to lead cryptocurrency market</a>
+                                            <p class="fw-normal mb-1">Ripple (XRP), the fourth largest cryptocurrency,
+                                                has surged by an impressive 10% in the past 24 hours, aiming for the
+                                                $0.7 mark ...</p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-6.jpg" alt="" width="170px" height="100px"
+                                                class="rounded-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">U.S. stocks start
+                                                week with gains on fed rate hike termination ho ...</a>
+                                            <p class="fw-normal mb-1">At the beginning of the trading session on Monday,
+                                                U.S. stocks experienced a slight uptick, driven by optimism surrounding
+                                                the ...</p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets  pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-7.png" alt="" width="170px" height="100px"
+                                                class="rounded-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">Insmed Incorporated
+                                                (INSM): Positive Earnings, Strategic Expansio ...</a>
+                                            <p class="fw-normal mb-1">Insmed (INSM: NASDAQ) Insmed Incorporated (INSM),
+                                                a biopharmaceutical company specializing in rare and serious diseases,
+                                                has re ... </p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-8.jpeg" alt="" width="170px"
+                                                height="100px" class="rounded-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">Bitcoin and Ethereum
+                                                see daily drop, Solana posts robust weekly g ...</a>
+                                            <p class="fw-normal mb-1">In the cryptocurrency realm, Bitcoin and Ethereum
+                                                faced a decline on Friday, with Bitcoin dropping by 2.60% to $34,630.39
+                                                and E ...</p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets  pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-9.jpg" alt="" width="170px" height="100px"
+                                                class="rounded-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold   hov">Wall St rises as weak
+                                                jobs data cements rate-pause bets</a>
+                                            <p class="fw-normal mb-1">On Friday, Wall Street’s primary indices saw gains
+                                                following data indicating a slowdown in job growth and a rise in the u
+                                                ... </p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="left-widgets  pt-3 pb-2 px-2 border">
+                                    <div
+                                        class="inner d-flex gap-3 flex-md-row flex-column align-items-md-start align-items-center">
+                                        <div class="widget-img">
+                                            <img src="./assets/media/left-img-10.png" alt="" width="170px"
+                                                height="100px" class="rounded-1 mt-1">
+                                        </div>
+                                        <div class="description d-flex flex-column">
+                                            <a href="#" class="text-decoration-none fw-bold text-black hov">QuikLogic
+                                                Corporation (QUIK): Partnering for IoT and AI/ML Innova ...</a>
+                                            <p class="fw-normal mb-1">QuickLogic (QUIK: NASDAQ) QuikLogic Corporation
+                                                (QUIK), a semiconductor company specializing in intellectual property
+                                                solutions ...</p>
+                                            <div class="d-flex gap-2">
+                                                <p class="fw-semibold bottom-para">Muazzam Rauf</p>
+                                                <p class="fw-semibold bottom-para">10-11-23</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="col-12 col-xl-4 scroll-bar">
+                        <div class="right-content">
+                            <div class="all-right-widgets">
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50 start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Hamas and
+                                            Israel in talks on release of hostages</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50 start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Hot Stocks:
+                                            $INVO, $MRAI, $TCON, $KTRA, $BTC, $ETH - RICH TV ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> SpaceX
+                                            workers suffered 'amputations and crushed limbs' in M ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Israel
+                                            agrees to 4-hour pauses in Gaza daily</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-5.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Neo Battery
+                                            Materials Corporate Update (TSXV: NBM) (OTCQB: N) ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-6.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Trump trial
+                                            judge 74-year-old Arthur Engoron posts shirtless ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-7.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Biden and
+                                            Netanyahu discuss temporary pauses in fighting</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-8.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Ivanka Trump
+                                            takes the stand in her family $250 million frau ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-9.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Jewish man
+                                            dies from head injuries after confrontation at Pr ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-10.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Zelensky
+                                            invites Trump to the Ukraine</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-11.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Hot Stocks:
+                                            $SNTI, $CDIO, $PXMD, $TMDX, $DDOG, $BTC - RICH T ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-12.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> S&P 500
+                                            rises for the seventh straight day on pace for the b ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-13.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Trump calls
+                                            $250 million fraud trial "Election Interference"</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-14.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Trump takes
+                                            the Stand - Bitcoin 35K - War Protests - Bull & ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-15.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Riverside
+                                            Acquires the Revel Carbonatite Rare Earth Element</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-16.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Joe and
+                                            Hunter Biden laundered China funds</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-17.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Trump set to
+                                            take the stand on Monday in his $250 million fr ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-18.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Ronaldo
+                                            scores another sensational goal, the all-time leadin ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Sam
+                                            Bankman-Fried biggest fear of jail is confirmed, but it' ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-20.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Hot Stocks:
+                                            $EXPE, $DKNG, $SQ, $MRNA, $EVLO - RICH TV LIVE P ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-21.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Hezbollah
+                                            leader Sayed Hassan Nasrallah speech threatens U.S ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-23.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Sam
+                                            Bankman-Fried found guilty on all seven counts of fraud, ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-24.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> The war
+                                            between Israelis & Palestinians in Gaza</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-25.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Top 10
+                                            Cryptocurrency to watch November 2023 - RICH TV LIVE ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-26.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Hot Stocks:
+                                            $VIRI, $RCKY, $LMND, $ROKU, $SHOP - RICH TV LIVE ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-27.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> FED LEAVES
+                                            RATES UNCHANGED - HOT STOCKS - BITCOIN - RICH TV ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-28.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Ground
+                                            operations against Hamas continue 8525 Palestinians d ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-29.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Federal
+                                            Reserve Chairman Jerome Powell leaves interest rates ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-30.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Top 10
+                                            Bitcoin related Stocks November 2023 - RICH TV LIVE P ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-31.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Top Hamas
+                                            commander Ibrahim Biari killed in Israeli airstrik ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-32.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Hot Stocks:
+                                            $SPRC, $TRKA, $CDIO, $LIFW, $PINS - RICH TV LIVE ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-33.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Yemen to
+                                            officially enter War with Israel</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-34.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Messi wins
+                                            8th Ballon d'Or</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-35.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Hot Stocks:
+                                            $MIRO, $KXIN, $RVPH $EAR $CDT - RICH TV LIVE POD ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-36.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Putin calls
+                                            a meeting after a Mob storms Russian Dagestan Ai ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-37.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize">
+                                            <h4> Iran President says Israel crossed the red line and soon eve ...
+                                        </a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-38.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> USA Strikes
+                                            Iran in Syria - Israel/Hamas Conflict - Trump - ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-39.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> Friends Star
+                                            Matthew Perry has died at age 54 after drowning ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                                <div class="right-widgets d-flex gap-2 pe-1 mb-3 align-items-center">
+                                    <div class="widget-img position-relative">
+                                        <button
+                                            class="button-center position-absolute top-50  start-50 translate-middle rounded-4 border-0 middle rounded-4">
+                                            <img class="mt-1" src="./assets/media/circle-button-small.png" alt="">
+                                        </button>
+                                        <div class="widget-img1">
+                                            <img class="rounded-1" src="./assets/media/right-img-40.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class=" bio d-flex flex-column">
+                                        <a href="#" class="text-decoration-none fw-medium text-capitalize"> 120
+                                            Countries voted in Favor of a Ceasefire in Gaza America ...</a>
+                                        <p class="fw-semibold bottom-para ">RICH TV LIVE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container-fluid my-5 py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="go-back-btn d-flex gap-2 p-3 rounded-2 fw-semibold text-uppercase"
+                                type="button">
+                                <div class="btn-icon">
+                                    <i class="bi bi-chevron-left"></i>
+                                </div>
+                                Go Back To All Videos
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="newsletter-section pb-5 mb-5">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <p class="fs-1 fw-bold text-uppercase">Sign up for our free newsletter</p>
+                                <div class="gradient-hr mt-5"></div>
+                                <p class="fs-4 mt-5 para">Simply drop in your email address to never miss an update from
+                                    Rich TV.</p>
+                                <form action="#" class="newsletter-form">
+                                    <div class="d-flex mb-2">
+                                        <input class="search rounded-2 ps-3 mt-2" type="search" name="seacrh"
+                                            id="search" placeholder="Enter Your Email">
+                                        <button type="button" class="submit-btn rounded-2 ms-3 mt-2">Submit</button>
+                                    </div>
+                                    <div class=" text-start d-flex gap-1 align-items-md-center align-items-start">
+                                        <input class="checkbox" type="checkbox" name="checkbox" id="checkbox">
+                                        <label for="checkbox">I agree to receive newsletter and email
+                                            alerts.</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="disclaimer-section mt-5 pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="disclaimer rounded-3">
+                                <div class="heading d-flex gap-3">
+                                    <img src="./assets/media/alert-img.png" alt="" width="42px" height="42px">
+                                    <p class="fs-2 fw-bold text-black">RISK DISCLAIMER</p>
+                                </div>
+                                <div class="risk-para mt-4">
+                                    <p class="" id="initialText2">Rich TV's company profiles and other investor
+                                        relations materials,
+                                        publications or presentations, including web content, are based on data obtained
+                                        from sources we believe to be reliable but are not guaranteed as to accuracy and
+                                        are
+                                        not purported to be complete. As such, the information should not be construed
+                                        as
+                                        advice designed to meet the particular investment needs of any investor. Any
+                                        opinions expressed in Rich TV reports, company profiles, or other investor
+                                        relations
+                                        materials and presentations are subject to change. Rich TV and its affiliates
+                                        may
+                                        buy and sell shares of securities or options of the issuers mentioned on this
+                                        website at any time. <a id="showMoreBtn" type="button" class="ps-1 hov"
+                                            onclick="showMore()"> Show More </a>
+                                    </p>
+                                    <p class="" style="display: none;" id="moreText2">
+                                        Stock market investing is inherently risky. Rich TV is not
+                                        responsible for any gains or losses that result from the opinions expressed on
+                                        this
+                                        website, in its research reports, company profiles or in other investor
+                                        relations
+                                        materials or presentations that it publishes electronically or in print.
+
+                                        We strongly encourage all investors to conduct their own research before making
+                                        any
+                                        investment decision. For more information on stock market investing, visit the
+                                        Securities and Exchange Commission ("SEC") at www.sec.gov.
+                                        <a id="showLessBtn" type="button" class="ps-1 hov" onclick="showLess()"> Show
+                                            Less
+                                        </a>
+                                    </p>
+                                </div>
+                                <script type="text/javascript">
+                                    function showMore() {
+                                        var initialText2 = document.getElementById("initialText2");
+                                        var moreText2 = document.getElementById("moreText2");
+                                        var showMoreBtn = document.getElementById("showMoreBtn");
+
+                                        initialText2.style.display = "block";
+                                        moreText2.style.display = "block";
+                                        showMoreBtn.style.display = "none";
+                                    }
+                                    function showLess() {
+                                        var initialText2 = document.getElementById("initialText2");
+                                        var moreText2 = document.getElementById("moreText2");
+
+                                        initialText2.style.display = "block";
+                                        moreText2.style.display = "none";
+                                        showMoreBtn.style.display = "block";
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="container-fluid footer">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <a class="navbar-brand" href="#home">
+                            <img src="./assets/media/site-logo.svg" height="34px" width="121px" alt="site-logo">
+                        </a>
+                        <div class="footer-para mt-4">
+                            <p class="ft-clr">
+                                Trading data in widgets
+                                displayed with a 15-minute
+                                delay. Prices available on stock
+                                page updated in real time.
+                                Market & fundamental data
+                                appearing on Rich Tv
+                                sourced from various 3rd party
+                                data providers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-6 footer-div2">
+                        <div class="ft-heading pb-1">
+                            <p class="text-uppercase fw-medium ft-clr">Rich tv</p>
+                        </div>
+                        <div class="ft-links">
+                            <ul class="navbar-nav">
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none"
+                                        href="#">About us</a></li>
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none"
+                                        href="#">Pricing and Plans</a></li>
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none"
+                                        href="#">Affillate Program</a></li>
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none"
+                                        href="#">Contact us</a></li>
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none" href="#">Join
+                                        the Club</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-6 footer-div">
+                        <div class="ft-heading pb-1">
+                            <p class="text-uppercase fw-medium ft-clr">learning</p>
+                        </div>
+                        <div class="ft-links">
+                            <ul class="navbar-nav">
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none" href="#">Rich
+                                        Picks</a></li>
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none"
+                                        href="#">Penny Stocks</a></li>
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none"
+                                        href="#">News</a></li>
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none" href="#">CEO
+                                        Interviews</a></li>
+                                <li class="nav-link"><a class=" hov nav-item ft-clr  text-decoration-none"
+                                        href="#">Trading School </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12 footer-div">
+                        <div class="footer-heading">
+                            <p class="text-uppercase fw-medium ft-clr fs-6">Get Latest Stock Pick Alerts</p>
+                        </div>
+                        <div class="footer-search">
+                            <form action="#" class="position-relative">
+                                <input class=" ps-3 bg-transparent rounded-3" type="search" name="search" id="search"
+                                    placeholder="Enter your email">
+                                <button type="button"
+                                    class="position-absolute top-50 end-0 translate-middle-y py-2 px-3 me-2 rounded-2">
+                                    <i class="bi bi-arrow-right"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="email mt-4 mb-2">
+                            <a href="mailto:support@richtv.io"
+                                class="d-flex align-items-center text-decoration-none ft-clr hov " aria-label="email"
+                                target="_blank" rel="nofollow">
+                                <i class="bi bi-envelope me-3 fs-6 ft-clr"></i>
+                                support@richtv.io
+                            </a>
+                        </div>
+                        <div class="num">
+                            <a href="tel:778-237-2402" class="d-flex align-items-center text-decoration-none ft-clr hov"
+                                target="_blank" aria-label="Phone" rel="nofollow">
+                                <i class="bi bi-telephone me-3 fs-6 ft-clr"></i>
+                                778-237-2402
+                            </a>
+                        </div>
+                        <div class="footer-icons d-flex gap-4 mt-4">
+                            <ul class="navbar-nav d-flex flex-row gap-4">
+                                <li>
+                                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                                        <i class="bi bi-facebook ft-clr hov"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com" aria-label="Youtube"><i
+                                            class="bi bi-youtube ft-clr hov"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i
+                                            class="bi bi-instagram ft-clr hov"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i
+                                            class="bi bi-twitter-x ft-clr hov"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://linkedin.com" target="_blank" aria-label="Linkdin"> <i
+                                            class="bi bi-linkedin ft-clr hov"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.tiktok.com" target="_blank" aria-label="Tiktok"><i
+                                            class="bi bi-tiktok ft-clr hov"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="footer-hr mt-5 mb-2">
+                    <div class="col-12 footer-btm d-sm-flex d-block gap-2">
+                        <p class="ft-clr pe-2">Copyright © 2023 Rich Tv. All rights reserved</p>
+                        <a class="text-decoration-none ft-clr hov privacy pe-2" href="#">Privacy Policy</a>
+                        <a class="text-decoration-none ft-clr hov pe-2" href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Script File  -->
+    <script src="./assets/script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.47.1/docxtemplater.js"
+        integrity="sha512-O5K+c4Au5MFs5BDnGlFq0lBWF4tj0APztqG+x3tIMSxhLSdzl9UySaqoUQjFq7WSVpah2HDCHpoAJACwr0Ul+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap Js Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
